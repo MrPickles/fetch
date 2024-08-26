@@ -5725,7 +5725,8 @@ run these steps:
       <a for=/>header</a> into account.
 
      <li>
-      <p>If <var>storedResponse</var> is non-null, then:
+      <p>If <var>storedResponse</var> is non-null and <var>storedResponse</var>'s status is an
+      <a>ok status</a>, then:
 
       <!-- cache hit -->
       <ol>
@@ -9019,6 +9020,7 @@ Alan Jeffrey,
 Alexey Proskuryakov,
 Andreas Kling,
 Andrés Gutiérrez,
+Andrew Liu<!-- MrPickles; GitHub -->,
 Andrew Sutherland,
 Ángel González,
 Anssi Kostiainen,
